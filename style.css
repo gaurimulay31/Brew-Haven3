@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 50px;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+
+.nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+#btn1{
+    width: auto;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#btn1:hover{
+  transform: scale(1.05);
+  background-color: #6b3e26;
+  color: #ccc;
+  border: none;
+}
+
+.nav:hover{
+    transform: scale(1.05);
+    
+}
+
+#hero{
+    height: 500px;
+    width: 100%;
+    background-image: url("images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-left: 5%;
+
+}
+
+#hero h1{
+     margin-left: 0;
+    font-size: 60px;
+    margin-bottom: 10px;
+    
+}
+#hero h3{
+    margin-left: 0;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#btn2{
+    width: auto;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 0;
+    font-size: 30px;
+    color: white;
+
+}
+#btn2:hover{
+    transform: scale(1.05);
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* SECTION */
+#menu {
+  text-align: center;
+  padding: 40px;
+}
+#menu h2{
+    margin-bottom: 20px;
+}
+/* GRID */
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+
+  width: 80%;
+  margin: auto;
+}
+
+/* CARD */
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* IMAGE */
+.menu-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* TEXT AREA */
+.info {
+  flex: 1;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* PRICE */
+.price {
+  font-weight: bold;
+}
+
+/* HOVER */
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+#Gallery{
+  text-align: center;
+}
+#Gallery-img{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.image{
+  height:170px;
+  width: 190px;
+  border-radius: 20px;
+  background-color: bisque;
+}
+#image1{
+  background-image: url("images/brownie.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#image2{
+  background-image: url("images/cappuccino.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#image3{
+  background-image: url("images/lee-suho-c9lCiW6V4hY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#image4{
+  background-image: url("images/fries.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#image5{
+  background-image: url("images/sandwitch.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+#btn3{
+  height: 30px;
+  width: 120px;
+  margin-top:-20px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#btn3:hover{
+  transform: scale(1.05);
+  background-color: #6b3e26;
+  color: #ccc;
+  border: none;
+}
+
+#about{
+  background-color: burlywood;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap:60px;
+}
+#div1{
+  background-image: url("images/nathan-dumlao-X_bbCAYzlTs-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+
+#div2{
+  background-color: transparent;
+  height: 300px;
+  width: 400px;
+  text-align: left;
+}
+
+#about p,h3 {
+  font-size: large;
+}
+#contact-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+#contact{
+  text-align: center;
+}
+#footer{
+  background-color: black;
+  color: #f5f5f5;
+  text-align: center;
+  height: 30px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+/* RESERVATION SECTION */
+#reservation {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#reservation h2 {
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: gray;
+  margin-bottom: 25px;
+}
+
+/* FORM CARD (same style as menu-item) */
+.reservation-form {
+  background: white;
+  width: 350px;
+  margin: auto;
+  padding: 25px;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* INPUTS */
+.reservation-form input,
+.reservation-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* FOCUS */
+.reservation-form input:focus,
+.reservation-form select:focus {
+  border-color: #6b3e26;
+}
+
+/* BUTTON (matches your btn1 style) */
+.reservation-form button {
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reservation-form button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+
+  /* navbar stacks vertically */
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-right: 0;
+  }
+
+  /* hero text gets smaller */
+  #hero h1 {
+    font-size: 36px;
+  }
+  #hero h3 {
+    font-size: 22px;
+  }
+  #btn2 {
+    font-size: 18px;
+  }
+
+  /* menu goes 1 column on mobile */
+  .menu-container {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+
+  /* gallery stacks vertically */
+  #Gallery-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* about section stacks vertically */
+  #about {
+    flex-direction: column;
+  }
+  #div1, #div2 {
+    width: 100%;
+  }
+
+  /* contact info stacks */
+  #contact-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

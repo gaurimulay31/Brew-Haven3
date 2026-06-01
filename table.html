@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserve Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section id="reservation">
+  <h2>Reserve a Table</h2>
+  <p class="sub">Book your cozy spot ☕</p>
+
+  <form class="reservation-form" id="bookingForm">
+
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="tel" placeholder="Phone Number" required>
+
+    <input type="number" placeholder="Number of Guests" min="1" required>
+
+    <input type="date" required>
+    <input type="time" required>
+
+    <select required>
+      <option value="">Select Occasion</option>
+      <option>Birthday</option>
+      <option>Anniversary</option>
+      <option>Date</option>
+      <option>Casual</option>
+    </select>
+
+    <button type="submit" id="btn4">Reserve Table</button>
+
+  </form>
+</section>
+<script src="style.js"></script>
+</body>
+</html>
